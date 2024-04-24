@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 40px 8px 8px;
+}
+
+.container > div:not(:first-of-type) {
+    margin-top: 40px;
+}
+
+.type-title {
+    margin-bottom: 40px;
+    font: 400 3rem 'Times New Roman', serif;
+    background-color: #fff8dc;
+    color: #800000;
+    line-height: 3.45rem;
+}
+
+.item {
+    font: 400 2rem 'Times New Roman', serif;
+    line-height: 2.3rem;
+}
+
+.item > div {
+    min-height: 150px;
+}
+
+.c1 {
+    background-color: #003476;
+}
+
+.c2 {
+    background-color: #0062d2;
+}
+
+.c3 {
+    background-color: #a4d2f7;
+}
+
+.c4 {
+    background-color: #d5dfef;
+}
+
+.c5 {
+    background-color: #b0e1e5;
+}
+
+.layout-shifter .c2,
+.layout-shifter .c3 {
+    font-size: 2em;
+    line-height: 1.15em;
+}
+
+@media screen and (min-width: 800px) {
+    .item:not(.column-drop) {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .mostly-fluid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mostly-fluid .c1 {
+        grid-column: 1 / 3;
+    }
+
+    .column-drop {
+        display: flex;
+    }
+
+    .column-drop > div {
+        width: 100%;
+    }
+
+    .layout-shifter {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .layout-shifter .c1 {
+        grid-row: 1 / 3;
+        background-color: #008080;
+        font-size: 1.0625rem;
+        line-height: 1.15em;
+    }
+
+    .layout-shifter .c2 {
+        background-color: #ff69b4;
+    }
+
+    .layout-shifter .c2,
+    .layout-shifter .c3 {
+        font-size: 2.1875rem;
+        line-height: 1.15em;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .mostly-fluid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mostly-fluid .c3,
+    .mostly-fluid .c4,
+    .mostly-fluid .c5 {
+        color: #ff0000;
+    }
+
+    .column-drop {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .column-drop .c2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .column-drop .c3 {
+        grid-column: 1 / 3;
+    }
+}

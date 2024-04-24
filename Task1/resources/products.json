@@ -1,0 +1,81 @@
+{
+    "products": [
+        {
+            "name": "Google Pixel 3 XL",
+            "price": 648,
+            "imgPath": "resources/images/product-1.jpg",
+            "imgAlt": "Google Pixel 3 XL",
+            "id": 1
+        },
+        {
+            "name": "Google Pixel 2 XL",
+            "price": 500,
+            "imgPath": "resources/images/product-2.jpg",
+            "imgAlt": "Google Pixel 2 XL",
+            "id": 2
+        },
+        {
+            "name": "Apple iPhone XR",
+            "price": 714,
+            "imgPath": "resources/images/product-3.jpg",
+            "imgAlt": "Apple iPhone XR",
+            "id": 3
+        },
+        {
+            "name": "OnePlus 7 Pro",
+            "price": 327,
+            "imgPath": "resources/images/product-4.jpg",
+            "imgAlt": "OnePlus 7 Pro",
+            "id": 4
+        },
+        {
+            "name": "Samsung Galaxy S10 Plus",
+            "price": 114,
+            "imgPath": "resources/images/product-5.jpg",
+            "imgAlt": "Samsung Galaxy S10 Plus",
+            "id": 5
+        },
+        {
+            "name": "Samsung Galaxy Note 9",
+            "price": 170,
+            "imgPath": "resources/images/product-6.jpg",
+            "imgAlt": "Samsung Galaxy Note 9",
+            "id": 6
+        },
+        {
+            "name": "Dell Alienware 17 R5 VR",
+            "price": 2300,
+            "imgPath": "resources/images/product-7.jpg",
+            "imgAlt": "Dell Alienware 17 R5 VR",
+            "id": 7
+        },
+        {
+            "name": "MSI Gaming MSI GT83 8RG-007IN",
+            "price": 5170,
+            "imgPath": "resources/images/product-8.jpg",
+            "imgAlt": "MSI Gaming MSI GT83 8RG-007IN",
+            "id": 8
+        },
+        {
+            "name": "CHUWI HeroBook Pro 14.1",
+            "price": 439,
+            "imgPath": "resources/images/product-9.jpg",
+            "imgAlt": "CHUWI HeroBook Pro 14.1",
+            "id": 9
+        },
+        {
+            "name": "Apple MacBook Air",
+            "price": 1150,
+            "imgPath": "resources/images/product-10.jpg",
+            "imgAlt": "Apple MacBook Air",
+            "id": 10
+        },
+        {
+            "name": "Asus ROG Zephyrus S17 GX701LWS-HG110T",
+            "price": 3200,
+            "imgPath": "resources/images/product-11.jpg",
+            "imgAlt": "Asus ROG Zephyrus S17 GX701LWS-HG110T",
+            "id": 11
+        }
+    ]
+}

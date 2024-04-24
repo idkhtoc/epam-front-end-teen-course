@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 5px;
+    grid-template-areas: "one one one one two two"
+                         "one one one one two two"
+                         "one one one one three four"
+                         "one one one one three four"
+                         "five five six six eight eight"
+                         "five five seven seven nine nine"
+                         "ten ten . . nine nine"
+                         "ten ten eleven eleven eleven eleven"
+                         "twelve twelve twelve twelve twelve twelve";
+}
+
+.container div {
+    padding: 10px;
+}
+
+.item-1 {
+    grid-area: one;
+    background: #554499;
+    display: flex;
+    padding: 45px 20px !important; 
+}
+
+.item-1 > div {
+    background: #F0D614;
+    width: 20%;
+}
+
+.item-1 > div:nth-child(3) {
+    margin-left: auto;
+}
+
+.item-2 {
+    grid-area: two;
+    background: #557711;
+}
+
+.item-3 {
+    grid-area: three;
+    background: #99AA77;
+}
+
+.item-4 {
+    grid-area: four;
+    background: #9955CC;
+}
+
+.item-5 {
+    grid-area: five;
+    background: #77AA66;
+}
+
+.item-6 {
+    grid-area: six;
+    background: #5588DD;
+}
+
+.item-7 {
+    grid-area: seven;
+    background: #FF1177;
+}
+
+.item-8 {
+    grid-area: eight;
+    background: #CC4488;
+}
+
+.item-9 {
+    grid-area: nine;
+    background: #1155FF;
+}
+
+.item-10 {
+    grid-area: ten;
+    background: #22EE88;
+}
+
+.item-11 {
+    grid-area: eleven;
+    background: #AAA;
+}
+
+.item-12 {
+    grid-area: twelve;
+    background: #71047A;
+}
